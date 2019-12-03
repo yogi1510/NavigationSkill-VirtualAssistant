@@ -27,7 +27,7 @@ class NavigationSkill(MycroftSkill):
         
         
         
-        url='https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=Madhapur+Police+Station&destinations=Jawaharlal+Nehru+Technological+University+Hyderabad&key=YOUR_API_KEY'
+        url='https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=Madhapur+Police+Station&destinations=Jawaharlal+Nehru+Technological+University+Hyderabad&key=AIzaSyBpfgcCEAI_cnJB2yAtT7xw2m2Ci-e6vc0'
 
         r = requests.get(url)
         
