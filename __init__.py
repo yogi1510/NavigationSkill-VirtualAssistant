@@ -50,6 +50,7 @@ class NavigationSkill(MycroftSkill):
         self.log.info("There are five types of log messages: "
                       "info, debug, warning, error, and exception.")
         self.speak_dialog("navigation.to.home",{"distance":di})
+        self.speak_dialog("time",{"duration":du})
 
     def stop(self):
         pass
