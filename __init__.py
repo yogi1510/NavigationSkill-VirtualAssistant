@@ -35,13 +35,13 @@ class NavigationSkill(MycroftSkill):
         #print(json_output)
         
         output=json_output['rows']
-        
-        elements = output['elements']
-        distance = elements['distance']
-        duration = elements['duration']
-        
-        di=distance[0]['text']
-        du=duration[0]['text']
+
+        elements = output[0]['elements']
+        distance = elements[0]['distance']
+        duration = elements[0]['duration']
+
+        di=distance['text']
+        du=duration['text']
         
         
         
